@@ -45,7 +45,7 @@ export default function Navbar() {
 				</div>
 			</nav>
 			{isOpen && (
-				<div className="flex flex-col items-center basis-full md:hidden border border-b-black my-2">
+				<div className="flex flex-col items-center basis-full md:hidden border-b border-b-black my-2">
 					<Links />
 				</div>
 			)}
