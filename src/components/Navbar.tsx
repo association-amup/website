@@ -40,7 +40,7 @@ export default function Navbar() {
 				</div>
 				<div className="md:hidden">
 					<button onClick={toggleNavbar}>
-						{isOpen ? <X /> : <Menu />}
+						{isOpen ? <X size={40} /> : <Menu size={40} />}
 					</button>
 				</div>
 			</nav>

@@ -9,7 +9,9 @@ export default function Header() {
 			flex items-center justify-between flex-wrap"
 		>
 			<h1 className="text-2xl font-bold">
-				<Link to="/">Logo</Link>
+				<Link to="/">
+					<img src="/amup-logo.png" className="w-16 h-16" />
+				</Link>
 			</h1>
 			<Navbar />
 		</header>
