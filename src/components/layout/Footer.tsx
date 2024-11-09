@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 function Footer() {
   const navigation = {
     main: [
-      { name: 'Home', href: '/' },
-      { name: 'About', href: '/about' },
-      { name: 'Activities', href: '/activities' },
+      { name: 'Accueil', href: '/' },
+      { name: 'À propos', href: '/about' },
+      { name: 'Activités', href: '/activities' },
       { name: 'Contact', href: '/contact' },
     ],
     social: [
@@ -95,4 +95,4 @@ function Footer() {
   )
 }
 
-export default Footer 
+export default Footer
