@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div>
-      <div className="relative bg-primary">
+      <div className="relative bg-gradient-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
             <span className="block">Bienvenue à l'AMUP</span>
@@ -16,7 +16,7 @@ function Home() {
           <div className="mt-10">
             <a
               href="/contact"
-              className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-lg hover:bg-blue-400 transition duration-300"
+              className="inline-block bg-accent text-primary font-bold py-3 px-8 rounded-lg hover:bg-blue-400 transition duration-300 text-white"
             >
               S'impliquer
             </a>
@@ -59,7 +59,7 @@ function Home() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-secondary">
+      <div className="bg-gradient-accent">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">

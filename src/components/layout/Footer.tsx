@@ -48,7 +48,7 @@ function Footer() {
   }
 
   return (
-    <footer className="bg-primary">
+    <footer className="bg-deep-blue">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
@@ -56,7 +56,7 @@ function Footer() {
             <div key={item.name} className="px-5 py-2">
               <Link
                 to={item.href}
-                className="text-base text-gray-300 hover:text-white"
+                className="text-gray-200 hover:text-white"
               >
                 {item.name}
               </Link>
@@ -70,7 +70,7 @@ function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-gray-300 hover:text-white"
+              className="text-gray-200 hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >

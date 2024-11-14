@@ -16,7 +16,7 @@ function Navbar() {
   ]
 
   return (
-    <nav className="bg-primary">
+    <nav className="bg-deep-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -34,8 +34,8 @@ function Navbar() {
                   to={item.href}
                   className={`${
                     location.pathname === item.href
-                      ? 'bg-secondary text-white'
-                      : 'text-gray-300 hover:bg-secondary hover:text-white'
+                      ? 'bg-darker-blue text-white'
+                      : 'text-gray-200 hover:bg-darker-blue hover:text-white'
                   } px-3 py-2 rounded-md text-sm font-medium`}
                 >
                   {item.name}
@@ -80,8 +80,8 @@ function Navbar() {
                 to={item.href}
                 className={`${
                   location.pathname === item.href
-                    ? 'bg-secondary text-white'
-                    : 'text-gray-300 hover:bg-secondary hover:text-white'
+                    ? 'bg-darker-blue text-white'
+                    : 'text-gray-200 hover:bg-darker-blue hover:text-white'
                 } block px-3 py-2 rounded-md text-base font-medium`}
                 onClick={() => setIsOpen(false)}
               >
