@@ -1,54 +1,43 @@
+import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/shared/PageHeader';
 
 function Activities() {
+  const { t, ready } = useTranslation();
+  
+  if (!ready) return
+
   const activities = [
     {
-      title: "Conférences",
-      description: "Conférences régulières avec des intervenants experts, des tables rondes et des ateliers sur divers sujets de santé mentale.",
+      title: t('activities.types.conferences.title'),
+      description: t('activities.types.conferences.description'),
       image: "https://placehold.co/600x400",
-      details: [
-        "Sommet Annuel de la Santé Mentale",
-        "Ateliers de Développement Professionnel",
-        "Sessions d'Éducation Communautaire"
-      ]
+      details: t('activities.types.conferences.details', { returnObjects: true })
     },
     {
-      title: "Cellules d'écoute",
-      description: "Services d'écoute et de soutien fournis par des professionnels et bénévoles formés.",
+      title: t('activities.types.support.title'),
+      description: t('activities.types.support.description'),
       image: "https://placehold.co/600x400",
-      details: [
-        "Sessions de Soutien Individuel",
-        "Intervention de Crise",
-        "Groupes de Soutien par les Pairs"
-      ]
+      details: t('activities.types.support.details', { returnObjects: true })
     },
     {
-      title: "Ateliers",
-      description: "Ateliers interactifs axés sur l'éducation à la santé mentale, les stratégies d'adaptation et le développement des compétences.",
+      title: t('activities.types.workshops.title'),
+      description: t('activities.types.workshops.description'),
       image: "https://placehold.co/600x400",
-      details: [
-        "Gestion du Stress",
-        "Pratique de la Pleine Conscience",
-        "Formation aux Compétences de Vie"
-      ]
+      details: t('activities.types.workshops.details', { returnObjects: true })
     },
     {
-      title: "Marches",
-      description: "Marches de sensibilisation et manifestations publiques pour promouvoir la sensibilisation à la santé mentale et réduire la stigmatisation.",
+      title: t('activities.types.awareness.title'),
+      description: t('activities.types.awareness.description'),
       image: "https://placehold.co/600x400",
-      details: [
-        "Marche Annuelle de Sensibilisation",
-        "Événements de Sensibilisation Communautaire",
-        "Campagnes de Plaidoyer Public"
-      ]
+      details: t('activities.types.awareness.details', { returnObjects: true })
     }
   ];
 
   return (
     <div>
       <PageHeader 
-        title="Nos Activités" 
-        description="Découvrez les différentes façons dont nous soutenons la santé mentale dans notre communauté"
+        title={t('activities.title')}
+        description={t('activities.description')}
       />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -70,7 +59,7 @@ function Activities() {
               <h2 className="text-3xl font-bold text-primary mb-4">{activity.title}</h2>
               <p className="text-gray-600 mb-6">{activity.description}</p>
               <ul className="space-y-2">
-                {activity.details.map((detail) => (
+                {(activity.details as string[]).map((detail: string) => (
                   <li key={detail} className="flex items-center text-gray-600">
                     <span className="text-accent mr-2">•</span>
                     {detail}

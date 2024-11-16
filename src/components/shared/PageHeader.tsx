@@ -1,9 +1,15 @@
+import { useTranslation } from "react-i18next";
+
 interface PageHeaderProps {
   title: string;
   description?: string;
 }
 
 function PageHeader({ title, description }: PageHeaderProps) {
+  const { ready } = useTranslation();
+  
+  if (!ready) return <div>Loading...</div>;
+
   return (
     <div className="bg-gradient-primary">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">

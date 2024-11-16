@@ -1,0 +1,192 @@
+{
+  "common": {
+    "languages": {
+      "english": "Anglais",
+      "french": "Français",
+      "arabic": "Arabe"
+    },
+    "readMore": "Lire la suite",
+    "loading": "Chargement..."
+  },
+  "nav": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "about": "À propos",
+    "president": "Message du Président",
+    "goals": "Nos Objectifs",
+    "activities": "Activités",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue à l'AMUP",
+    "subtitle": "Soutenir la Santé Mentale au Maroc",
+    "description": "Nous nous consacrons à la promotion de la sensibilisation à la santé mentale et au soutien des personnes dans le besoin.",
+    "getInvolved": "S'impliquer",
+    "support": {
+      "title": "Soutien",
+      "description": "Accédez aux ressources et services de soutien en santé mentale"
+    },
+    "resources": {
+      "title": "Ressources",
+      "description": "Matériel éducatif et informations utiles"
+    },
+    "advocacy": {
+      "title": "Plaidoyer",
+      "description": "Lutter contre la stigmatisation et promouvoir les droits en santé mentale"
+    },
+    "contact": "Contactez-nous"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "Découvrez notre mission et l'équipe derrière l'AMUP",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "L'AMUP se consacre à la promotion de la sensibilisation à la santé mentale, à la réduction de la stigmatisation et au soutien des individus et des familles touchés par les défis de la santé mentale au Maroc."
+    },
+    "history": {
+      "title": "Notre Histoire",
+      "description": "Fondée en [ANNÉE], l'AMUP a commencé comme un petit groupe d'individus dévoués à l'amélioration du soutien en santé mentale au Maroc.",
+      "impact": "Grâce à nos différents programmes et initiatives, nous avons aidé des milliers de personnes à accéder aux ressources et au soutien en santé mentale."
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "roles": {
+        "executiveDirector": "Directrice Exécutive",
+        "programCoordinator": "Coordinateur de Programme"
+      }
+    }
+  },
+  "president": {
+    "title": "Message du Président",
+    "description": "Un message de notre direction",
+    "greeting": "Chers amis et supporteurs de l'AMUP,",
+    "content": {
+      "part1": "C'est un honneur de servir en tant que président de l'Association Marocaine des Usagers de la Psychiatrie.",
+      "part2": "Nous croyons que la santé mentale est un droit fondamental, et nous nous engageons à briser les barrières.",
+      "part3": "Ensemble, nous pouvons créer un changement positif et construire une société plus compréhensive et solidaire."
+    },
+    "signature": "Cordialement,"
+  },
+  "goals": {
+    "title": "Nos Objectifs",
+    "description": "Travailler ensemble pour une meilleure santé mentale au Maroc",
+    "list": {
+      "awareness": {
+        "title": "Sensibilisation & Éducation",
+        "description": "Accroître la compréhension publique des problèmes de santé mentale et promouvoir la littératie en santé mentale à travers des programmes éducatifs."
+      },
+      "support": {
+        "title": "Services de Soutien",
+        "description": "Fournir des services de soutien et des ressources accessibles aux individus et aux familles touchés par les défis de la santé mentale."
+      },
+      "advocacy": {
+        "title": "Plaidoyer",
+        "description": "Plaider pour de meilleures politiques de santé mentale et un meilleur accès aux services de santé mentale au Maroc."
+      },
+      "stigma": {
+        "title": "Réduction de la Stigmatisation",
+        "description": "Combattre la stigmatisation et la discrimination liées aux conditions de santé mentale à travers l'engagement communautaire."
+      },
+      "research": {
+        "title": "Recherche & Innovation",
+        "description": "Soutenir les initiatives de recherche et les approches innovantes en matière de soins de santé mentale."
+      }
+    }
+  },
+  "activities": {
+    "title": "Nos Activités",
+    "description": "Découvrez les différentes façons dont nous soutenons la santé mentale dans notre communauté",
+    "types": {
+      "conferences": {
+        "title": "Conférences",
+        "description": "Conférences régulières avec des experts, des tables rondes et des ateliers sur divers sujets de santé mentale.",
+        "details": [
+          "Sommet Annuel de la Santé Mentale",
+          "Ateliers de Développement Professionnel",
+          "Sessions d'Éducation Communautaire"
+        ]
+      },
+      "support": {
+        "title": "Groupes de Soutien",
+        "description": "Services d'écoute et de soutien fournis par des professionnels et bénévoles formés.",
+        "details": [
+          "Sessions de Soutien Individuel",
+          "Intervention de Crise",
+          "Groupes de Soutien par les Pairs"
+        ]
+      },
+      "workshops": {
+        "title": "Ateliers",
+        "description": "Ateliers interactifs axés sur l'éducation à la santé mentale et le développement des compétences.",
+        "details": [
+          "Gestion du Stress",
+          "Pratique de la Pleine Conscience",
+          "Formation aux Compétences de Vie"
+        ]
+      },
+      "awareness": {
+        "title": "Marches de Sensibilisation",
+        "description": "Marches de sensibilisation et manifestations publiques pour promouvoir la santé mentale.",
+        "details": [
+          "Marche Annuelle de Sensibilisation",
+          "Événements de Sensibilisation Communautaire",
+          "Campagnes de Plaidoyer Public"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Prenez contact avec notre équipe",
+    "info": {
+      "title": "Informations de Contact",
+      "address": "Adresse",
+      "addressLine1": "123 Rue Exemple",
+      "addressLine2": "Casablanca, Maroc",
+      "email": "Email",
+      "emailAddress": "contact@amup.org",
+      "phone": "Téléphone",
+      "phoneNumber": "+212 5XX-XXXXXX",
+      "hours": "Heures d'ouverture",
+      "weekdays": "Lundi - Vendredi : 9h00 - 17h00",
+      "saturday": "Samedi : 9h00 - 13h00",
+      "sunday": "Dimanche : Fermé"
+    }
+  },
+  "news": {
+    "title": "Actualités",
+    "description": "Restez informé de nos dernières activités et événements",
+    "items": {
+      "workshop": {
+        "title": "Succès de l'atelier sur la santé mentale",
+        "description": "Plus de 100 participants ont rejoint notre récent atelier sur la compréhension de l'anxiété et de la dépression."
+      },
+      "support": {
+        "title": "Lancement d'un nouveau groupe de soutien",
+        "description": "L'AMUP lance un nouveau groupe de soutien hebdomadaire à Casablanca."
+      },
+      "conference": {
+        "title": "Annonce de la conférence annuelle",
+        "description": "Réservez la date pour notre prochaine conférence annuelle sur la défense de la santé mentale."
+      }
+    }
+  },
+  "footer": {
+    "organization": "Association Marocaine des Usagers de la Psychiatrie",
+    "rights": "Tous droits réservés",
+    "social": {
+      "facebook": "Suivez-nous sur Facebook",
+      "instagram": "Suivez-nous sur Instagram",
+      "twitter": "Suivez-nous sur Twitter"
+    },
+    "contact": {
+      "emailPrefix": "Contactez-nous",
+      "email": "contact@amup.org",
+      "address": "123 Rue Exemple, Casablanca, Maroc"
+    },
+    "address": {
+      "line1": "123 Rue Exemple",
+      "line2": "Casablanca, Maroc"
+    }
+  }
+}

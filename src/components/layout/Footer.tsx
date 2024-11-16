@@ -1,12 +1,17 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom'
 
 function Footer() {
+  const { t, ready } = useTranslation();
+
+  if (!ready) return
+
   const navigation = {
     main: [
-      { name: 'Accueil', href: '/' },
-      { name: 'À propos', href: '/about' },
-      { name: 'Activités', href: '/activities' },
-      { name: 'Contact', href: '/contact' },
+      { name: t('nav.home'), href: '/' },
+      { name: t('nav.about'), href: '/about' },
+      { name: t('nav.activities'), href: '/activities' },
+      { name: t('nav.contact'), href: '/contact' },
     ],
     social: [
       {
@@ -65,7 +70,7 @@ function Footer() {
         </nav>
 
         {/* Social Links */}
-        <div className="mt-8 flex justify-center space-x-6">
+        <div className="mt-8 flex justify-center gap-6" dir="ltr">
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -74,7 +79,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="sr-only">{item.name}</span>
+              <span className="sr-only">{t(`footer.social.${item.name.toLowerCase()}`)}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
@@ -82,13 +87,13 @@ function Footer() {
 
         {/* Copyright */}
         <p className="mt-8 text-center text-base text-gray-300">
-          &copy; {new Date().getFullYear()} Association Marocaine des Usagers de la Psychiatrie. Tous droits réservés.
+          &copy; {new Date().getFullYear()} {t('footer.organization')}. {t('footer.rights')}
         </p>
 
         {/* Contact Info */}
         <div className="mt-4 text-center text-sm text-gray-300">
-          <p>Contactez-nous: contact@amup.org</p>
-          <p className="mt-1">123 Rue Exemple, Casablanca, Maroc</p>
+          <p>contact@amup.org</p>
+          <p className="mt-1">{t('footer.address.line1')}, {t('footer.address.line2')}</p>
         </div>
       </div>
     </footer>

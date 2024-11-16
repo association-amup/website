@@ -1,15 +1,20 @@
+import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/shared/PageHeader';
 
 function About() {
+  const { t, ready } = useTranslation();
+  
+  if (!ready) return
+
   const teamMembers = [
     {
       name: "Dr. Sarah Ahmed",
-      role: "Directrice Exécutive",
+      role: t('about.team.roles.executiveDirector'),
       image: "https://placehold.co/300x300"
     },
     {
       name: "Mohammed Benali",
-      role: "Coordinateur de Programme",
+      role: t('about.team.roles.programCoordinator'),
       image: "https://placehold.co/300x300"
     },
     // Add more team members as needed
@@ -18,19 +23,17 @@ function About() {
   return (
     <div>
       <PageHeader 
-        title="À propos" 
-        description="Découvrez notre mission et l'équipe derrière l'AMUP"
+        title={t('about.title')}
+        description={t('about.description')}
       />
 
       {/* Mission Section */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-primary">Notre Mission</h2>
+            <h2 className="text-3xl font-bold text-primary">{t('about.mission.title')}</h2>
             <p className="mt-4 text-lg text-gray-600">
-              L'AMUP se consacre à la promotion de la sensibilisation à la santé mentale, 
-              à la réduction de la stigmatisation et au soutien des personnes et des familles 
-              touchées par les défis de la santé mentale au Maroc.
+              {t('about.mission.description')}
             </p>
           </div>
         </div>
@@ -39,17 +42,10 @@ function About() {
       {/* History Section */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary text-center mb-8">Notre Histoire</h2>
+          <h2 className="text-3xl font-bold text-primary text-center mb-8">{t('about.history.title')}</h2>
           <div className="prose max-w-3xl mx-auto text-gray-600">
-            <p>
-              Fondée en [ANNÉE], l'AMUP a commencé comme un petit groupe d'individus 
-              dévoués à l'amélioration du soutien en santé mentale au Maroc. Au fil 
-              des années, nous sommes devenus une organisation nationale...
-            </p>
-            <p className="mt-4">
-              Grâce à nos différents programmes et initiatives, nous avons aidé des 
-              milliers de personnes à accéder aux ressources et au soutien en santé mentale...
-            </p>
+            <p>{t('about.history.description')}</p>
+            <p className="mt-4">{t('about.history.impact')}</p>
           </div>
         </div>
       </section>
@@ -57,7 +53,7 @@ function About() {
       {/* Team Section */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-primary text-center mb-12">Notre Équipe</h2>
+          <h2 className="text-3xl font-bold text-primary text-center mb-12">{t('about.team.title')}</h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {teamMembers.map((member) => (
               <div key={member.name} className="text-center">

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import PageHeader from "../components/shared/PageHeader";
 
 interface NewsItem {
@@ -9,27 +10,31 @@ interface NewsItem {
 }
 
 function News() {
+  const { t, ready } = useTranslation();
+
+  if (!ready) return
+
   // Mock data - replace with your actual news items
   const newsItems: NewsItem[] = [
     {
       id: 1,
-      title: "Succès de l'atelier sur la santé mentale",
+      title: t('news.items.workshop.title', 'Mental Health Workshop Success'),
       date: "2024-03-15",
-      description: "Plus de 100 participants ont rejoint notre récent atelier sur la compréhension de l'anxiété et de la dépression, avec des intervenants experts et des sessions interactives.",
+      description: t('news.items.workshop.description', 'Over 100 participants joined our recent workshop on understanding anxiety and depression, featuring expert speakers and interactive sessions.'),
       imageUrl: "https://placehold.co/600x400",
     },
     {
       id: 2,
-      title: "Lancement d'un nouveau groupe de soutien",
+      title: t('news.items.support.title', 'New Support Group Launch'),
       date: "2024-03-10",
-      description: "L'AMUP lance un nouveau groupe de soutien hebdomadaire à Casablanca, offrant un espace sûr aux individus pour partager leurs expériences et trouver une communauté.",
+      description: t('news.items.support.description', 'AMUP launches new weekly support group in Casablanca, providing a safe space for individuals to share experiences and find community.'),
       imageUrl: "https://placehold.co/600x400",
     },
     {
       id: 3,
-      title: "Annonce de la conférence annuelle",
+      title: t('news.items.conference.title', 'Annual Conference Announcement'),
       date: "2024-03-05",
-      description: "Réservez la date pour notre prochaine conférence annuelle sur la défense de la santé mentale, avec des intervenants internationaux et des ateliers.",
+      description: t('news.items.conference.description', 'Save the date for our upcoming annual mental health advocacy conference, featuring international speakers and workshops.'),
       imageUrl: "https://placehold.co/600x400",
     },
   ];
@@ -37,8 +42,8 @@ function News() {
   return (
     <div>
       <PageHeader 
-        title="Actualités" 
-        description="Restez informé de nos dernières activités et événements"
+        title={t('news.title')}
+        description={t('news.description')}
       />
       
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">

@@ -1,0 +1,179 @@
+{
+  "common": {
+    "languages": {
+      "english": "English",
+      "french": "French",
+      "arabic": "Arabic"
+    },
+    "readMore": "Read More",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "home": "Home",
+    "news": "News",
+    "about": "About",
+    "president": "President's Message",
+    "goals": "Our Goals",
+    "activities": "Activities",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to AMUP",
+    "subtitle": "Supporting Mental Health in Morocco",
+    "description": "We are dedicated to promoting mental health awareness and providing support to those in need.",
+    "getInvolved": "Get Involved",
+    "support": {
+      "title": "Support",
+      "description": "Access mental health resources and support services"
+    },
+    "resources": {
+      "title": "Resources",
+      "description": "Educational materials and helpful information"
+    },
+    "advocacy": {
+      "title": "Advocacy",
+      "description": "Fighting stigma and promoting mental health rights"
+    },
+    "contact": "Contact Us"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Discover our mission and the team behind AMUP",
+    "mission": {
+      "title": "Our Mission",
+      "description": "AMUP is dedicated to promoting mental health awareness, reducing stigma, and supporting individuals and families affected by mental health challenges in Morocco."
+    },
+    "history": {
+      "title": "Our History",
+      "description": "Founded in [YEAR], AMUP began as a small group of dedicated individuals committed to improving mental health support in Morocco. Over the years, we have grown into a national organization.",
+      "impact": "Through our various programs and initiatives, we have helped thousands of people access mental health resources and support."
+    },
+    "team": {
+      "title": "Our Team",
+      "roles": {
+        "executiveDirector": "Executive Director",
+        "programCoordinator": "Program Coordinator"
+      }
+    }
+  },
+  "president": {
+    "title": "President's Message",
+    "description": "A message from our leadership",
+    "greeting": "Dear friends and supporters of AMUP,",
+    "content": {
+      "part1": "It is an honor to serve as president of the Moroccan Association of Psychiatric Users.",
+      "part2": "We believe that mental health is a fundamental right, and we are committed to breaking down barriers.",
+      "part3": "Together, we can create positive change and build a more understanding and supportive society."
+    },
+    "signature": "Sincerely,"
+  },
+  "goals": {
+    "title": "Our Goals",
+    "description": "Working together for better mental health in Morocco",
+    "list": {
+      "awareness": {
+        "title": "Awareness & Education",
+        "description": "Increase public understanding of mental health issues and promote mental health literacy through educational programs and campaigns."
+      },
+      "support": {
+        "title": "Support Services",
+        "description": "Provide accessible support services and resources to individuals and families affected by mental health challenges."
+      },
+      "advocacy": {
+        "title": "Advocacy",
+        "description": "Advocate for better mental health policies and improved access to mental health services in Morocco."
+      },
+      "stigma": {
+        "title": "Stigma Reduction",
+        "description": "Combat stigma and discrimination related to mental health conditions through community engagement and education."
+      },
+      "research": {
+        "title": "Research & Innovation",
+        "description": "Support research initiatives and innovative approaches to mental health care and treatment."
+      }
+    }
+  },
+  "activities": {
+    "title": "Our Activities",
+    "description": "Discover the different ways we support mental health in our community",
+    "types": {
+      "conferences": {
+        "title": "Conferences",
+        "description": "Regular conferences with expert speakers, panel discussions, and workshops on various mental health topics.",
+        "details": [
+          "Annual Mental Health Summit",
+          "Professional Development Workshops",
+          "Community Education Sessions"
+        ]
+      },
+      "support": {
+        "title": "Support Groups",
+        "description": "Listening and support services provided by trained professionals and volunteers.",
+        "details": [
+          "Individual Support Sessions",
+          "Crisis Intervention",
+          "Peer Support Groups"
+        ]
+      },
+      "workshops": {
+        "title": "Workshops",
+        "description": "Interactive workshops focused on mental health education, coping strategies, and skill development.",
+        "details": [
+          "Stress Management",
+          "Mindfulness Practice",
+          "Life Skills Training"
+        ]
+      },
+      "awareness": {
+        "title": "Awareness Walks",
+        "description": "Awareness walks and public demonstrations to promote mental health awareness and reduce stigma.",
+        "details": [
+          "Annual Awareness Walk",
+          "Community Outreach Events",
+          "Public Advocacy Campaigns"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "addressLine1": "123 Example Street",
+      "addressLine2": "Casablanca, Morocco",
+      "email": "Email",
+      "emailAddress": "contact@amup.org",
+      "phone": "Phone",
+      "phoneNumber": "+212 5XX-XXXXXX",
+      "hours": "Opening Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "saturday": "Saturday: 9:00 AM - 1:00 PM",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "news": {
+    "title": "News",
+    "description": "Stay informed about our latest activities and events",
+    "readMore": "Read More"
+  },
+  "footer": {
+    "organization": "Moroccan Association of Psychiatry Users",
+    "rights": "All rights reserved",
+    "social": {
+      "facebook": "Follow us on Facebook",
+      "instagram": "Follow us on Instagram",
+      "twitter": "Follow us on Twitter"
+    },
+    "contact": {
+      "emailPrefix": "Contact us",
+      "email": "contact@amup.org",
+      "address": "123 Example Street, Casablanca, Morocco"
+    },
+    "address": {
+      "line1": "123 Example Street",
+      "line2": "Casablanca, Morocco"
+    }
+  }
+}

@@ -1,11 +1,16 @@
+import { useTranslation } from 'react-i18next';
 import PageHeader from "../components/shared/PageHeader";
 
 function President() {
+  const { t, ready } = useTranslation();
+
+  if (!ready) return
+
   return (
     <div>
       <PageHeader 
-        title="Mot du Président" 
-        description="Un mot de notre direction"
+        title={t('president.title')}
+        description={t('president.description')}
       />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -13,38 +18,23 @@ function President() {
           <div>
             <img
               src="https://placehold.co/400x500"
-              alt="Président de l'AMUP"
+              alt={t('president.title')}
               className="rounded-lg shadow-lg"
             />
           </div>
           <div className="mt-10 lg:mt-0">
             <h2 className="text-3xl font-bold text-primary mb-6">
-              Dr. [Nom du Président]
+              Dr. [Name]
             </h2>
             <div className="prose prose-lg text-gray-600">
-              <p>
-                Chers amis et supporteurs de l'AMUP,
-              </p>
-              <p className="mt-4">
-                C'est un honneur pour moi de servir en tant que président de 
-                l'Association Marocaine des Usagers de la Psychiatrie. Notre 
-                organisation se trouve à l'avant-garde de la défense de la santé 
-                mentale au Maroc...
-              </p>
-              <p className="mt-4">
-                Nous croyons que la santé mentale est un droit fondamental, et 
-                nous nous engageons à briser les barrières, à combattre la 
-                stigmatisation et à assurer l'accès à des soins de santé mentale 
-                de qualité pour tous...
-              </p>
-              <p className="mt-4">
-                Ensemble, nous pouvons créer un changement positif et construire 
-                une société plus compréhensive et plus solidaire.
-              </p>
+              <p>{t('president.greeting')}</p>
+              <p className="mt-4">{t('president.content.part1')}</p>
+              <p className="mt-4">{t('president.content.part2')}</p>
+              <p className="mt-4">{t('president.content.part3')}</p>
               <p className="mt-6 font-medium">
-                Cordialement,<br />
-                [Nom du Président]<br />
-                Président, AMUP
+                {t('president.signature')}<br />
+                Dr. [Name]<br />
+                {t('president.title')}, AMUP
               </p>
             </div>
           </div>

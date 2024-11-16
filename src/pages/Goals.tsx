@@ -1,35 +1,40 @@
+import { useTranslation } from 'react-i18next';
 import PageHeader from '../components/shared/PageHeader';
 
 function Goals() {
+  const { t, ready } = useTranslation();
+  
+  if (!ready) return
+
   const goals = [
     {
       id: 1,
-      title: "Sensibilisation & Éducation",
-      description: "Accroître la compréhension publique des problèmes de santé mentale et promouvoir la littératie en santé mentale à travers des programmes éducatifs et des campagnes.",
+      title: t('goals.list.awareness.title'),
+      description: t('goals.list.awareness.description'),
       icon: "🎓"
     },
     {
       id: 2,
-      title: "Services de Soutien",
-      description: "Fournir des services de soutien et des ressources accessibles aux individus et aux familles touchés par les défis de la santé mentale.",
+      title: t('goals.list.support.title'),
+      description: t('goals.list.support.description'),
       icon: "🤝"
     },
     {
       id: 3,
-      title: "Plaidoyer",
-      description: "Plaider pour de meilleures politiques de santé mentale et un meilleur accès aux services de santé mentale au Maroc.",
+      title: t('goals.list.advocacy.title'),
+      description: t('goals.list.advocacy.description'),
       icon: "📢"
     },
     {
       id: 4,
-      title: "Réduction de la Stigmatisation",
-      description: "Combattre la stigmatisation et la discrimination liées aux conditions de santé mentale à travers l'engagement communautaire et l'éducation.",
+      title: t('goals.list.stigma.title'),
+      description: t('goals.list.stigma.description'),
       icon: "💪"
     },
     {
       id: 5,
-      title: "Recherche & Innovation",
-      description: "Soutenir les initiatives de recherche et les approches innovantes en matière de soins et de traitement de la santé mentale.",
+      title: t('goals.list.research.title'),
+      description: t('goals.list.research.description'),
       icon: "🔬"
     }
   ];
@@ -37,8 +42,8 @@ function Goals() {
   return (
     <div>
       <PageHeader 
-        title="Nos Objectifs" 
-        description="Travailler ensemble pour une meilleure santé mentale au Maroc"
+        title={t('goals.title')}
+        description={t('goals.description')}
       />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">

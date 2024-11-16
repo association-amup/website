@@ -1,47 +1,56 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../shared/LanguageSwitcher'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const location = useLocation()
+  const { t, ready } = useTranslation()
+
+  if (!ready) return
 
   const navigation = [
-    { name: 'Accueil', href: '/' },
-    { name: 'Actualités', href: '/news' },
-    { name: 'À propos', href: '/about' },
-    { name: 'Président', href: '/president' },
-    { name: 'Objectifs', href: '/goals' },
-    { name: 'Activités', href: '/activities' },
-    { name: 'Contact', href: '/contact' },
+    { name: t('nav.home'), href: '/' },
+    { name: t('nav.news'), href: '/news' },
+    { name: t('nav.about'), href: '/about' },
+    { name: t('nav.president'), href: '/president' },
+    { name: t('nav.goals'), href: '/goals' },
+    { name: t('nav.activities'), href: '/activities' },
+    { name: t('nav.contact'), href: '/contact' },
   ]
 
   return (
     <nav className="bg-deep-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
+          {/* Logo */}
+          <div className="flex-shrink-0">
             <Link to="/" className="text-white font-bold text-xl">
               AMUP
             </Link>
           </div>
           
           {/* Desktop menu */}
+          <div className="hidden md:flex md:items-center md:space-x-4">
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                to={item.href}
+                className={`${
+                  location.pathname === item.href
+                    ? 'bg-darker-blue text-white'
+                    : 'text-gray-200 hover:bg-darker-blue hover:text-white'
+                } px-3 py-2 rounded-md text-sm font-medium`}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+
+          {/* Language Switcher */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className={`${
-                    location.pathname === item.href
-                      ? 'bg-darker-blue text-white'
-                      : 'text-gray-200 hover:bg-darker-blue hover:text-white'
-                  } px-3 py-2 rounded-md text-sm font-medium`}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile menu button */}
