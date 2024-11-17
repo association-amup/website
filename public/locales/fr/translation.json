@@ -159,15 +159,15 @@
     "items": {
       "workshop": {
         "title": "Succès de l'atelier sur la santé mentale",
-        "description": "Plus de 100 participants ont rejoint notre récent atelier sur la compréhension de l'anxiété et de la dépression."
+        "description": "Plus de 100 participants ont rejoint notre récent atelier sur la compréhension de l'anxiété et de la dépression, avec des experts et des sessions interactives."
       },
       "support": {
         "title": "Lancement d'un nouveau groupe de soutien",
-        "description": "L'AMUP lance un nouveau groupe de soutien hebdomadaire à Casablanca."
+        "description": "L'AMUP lance un nouveau groupe de soutien hebdomadaire à Casablanca, offrant un espace sûr pour partager des expériences et trouver une communauté."
       },
       "conference": {
         "title": "Annonce de la conférence annuelle",
-        "description": "Réservez la date pour notre prochaine conférence annuelle sur la défense de la santé mentale."
+        "description": "Réservez la date pour notre prochaine conférence annuelle sur la défense de la santé mentale, avec des intervenants internationaux et des ateliers."
       }
     }
   },

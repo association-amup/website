@@ -156,7 +156,21 @@
   "news": {
     "title": "News",
     "description": "Stay informed about our latest activities and events",
-    "readMore": "Read More"
+    "readMore": "Read More",
+    "items": {
+      "workshop": {
+        "title": "Mental Health Workshop Success",
+        "description": "Over 100 participants joined our recent workshop on understanding anxiety and depression, featuring expert speakers and interactive sessions."
+      },
+      "support": {
+        "title": "New Support Group Launch",
+        "description": "AMUP launches new weekly support group in Casablanca, providing a safe space for individuals to share experiences and find community."
+      },
+      "conference": {
+        "title": "Annual Conference Announcement",
+        "description": "Save the date for our upcoming annual mental health advocacy conference, featuring international speakers and workshops."
+      }
+    }
   },
   "footer": {
     "organization": "Moroccan Association of Psychiatry Users",

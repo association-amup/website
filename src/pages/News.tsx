@@ -10,7 +10,7 @@ interface NewsItem {
 }
 
 function News() {
-  const { t, ready } = useTranslation();
+  const { t, ready, i18n } = useTranslation();
 
   if (!ready) return
 
@@ -18,23 +18,23 @@ function News() {
   const newsItems: NewsItem[] = [
     {
       id: 1,
-      title: t('news.items.workshop.title', 'Mental Health Workshop Success'),
+      title: t('news.items.workshop.title'),
       date: "2024-03-15",
-      description: t('news.items.workshop.description', 'Over 100 participants joined our recent workshop on understanding anxiety and depression, featuring expert speakers and interactive sessions.'),
+      description: t('news.items.workshop.description'),
       imageUrl: "https://placehold.co/600x400",
     },
     {
       id: 2,
-      title: t('news.items.support.title', 'New Support Group Launch'),
+      title: t('news.items.support.title'),
       date: "2024-03-10",
-      description: t('news.items.support.description', 'AMUP launches new weekly support group in Casablanca, providing a safe space for individuals to share experiences and find community.'),
+      description: t('news.items.support.description'),
       imageUrl: "https://placehold.co/600x400",
     },
     {
       id: 3,
-      title: t('news.items.conference.title', 'Annual Conference Announcement'),
+      title: t('news.items.conference.title'),
       date: "2024-03-05",
-      description: t('news.items.conference.description', 'Save the date for our upcoming annual mental health advocacy conference, featuring international speakers and workshops.'),
+      description: t('news.items.conference.description'),
       imageUrl: "https://placehold.co/600x400",
     },
   ];
@@ -60,7 +60,7 @@ function News() {
               />
               <div className="p-6">
                 <time className="text-sm text-gray-500">
-                  {new Date(item.date).toLocaleDateString('fr-FR', {
+                  {new Date(item.date).toLocaleDateString(i18n.language === 'ar' ? 'ar-MA' : i18n.language === 'fr' ? 'fr-FR' : 'en-US', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
