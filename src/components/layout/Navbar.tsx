@@ -26,8 +26,12 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-white font-bold text-xl">
-              AMUP
+            <Link to="/" className="flex items-center">
+              <img
+                src="/img/logo.png"
+                alt="AMUP Logo"
+                className="h-16 w-auto"
+              />
             </Link>
           </div>
           
