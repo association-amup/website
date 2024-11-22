@@ -6,7 +6,8 @@
       "arabic": "Arabic"
     },
     "readMore": "Read More",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "close": "Close"
   },
   "nav": {
     "home": "Home",
@@ -189,5 +190,13 @@
       "line1": "123 Example Street",
       "line2": "Casablanca, Morocco"
     }
+  },
+  "donation": {
+    "donate": "Donate",
+    "title": "Support Our Cause",
+    "description": "Your donation helps support our mental health programs and support services.",
+    "bankDetails": "Bank Details",
+    "bankName": "Bank",
+    "accountHolder": "Account Holder"
   }
 }

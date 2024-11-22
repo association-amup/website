@@ -6,7 +6,8 @@
       "arabic": "Arabe"
     },
     "readMore": "Lire la suite",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "close": "Fermer"
   },
   "nav": {
     "home": "Accueil",
@@ -188,5 +189,13 @@
       "line1": "123 Rue Exemple",
       "line2": "Casablanca, Maroc"
     }
+  },
+  "donation": {
+    "donate": "Faire un don",
+    "title": "Soutenez notre cause",
+    "description": "Votre don aide à soutenir nos programmes de santé mentale et nos services de soutien.",
+    "bankDetails": "Coordonnées bancaires",
+    "bankName": "Banque",
+    "accountHolder": "Titulaire du compte"
   }
 }

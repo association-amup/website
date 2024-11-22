@@ -54,7 +54,7 @@ function Footer() {
 
   return (
     <footer className="bg-deep-blue">
-      <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto mb-16 md:mb-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
           {navigation.main.map((item) => (
