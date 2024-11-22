@@ -53,15 +53,17 @@ function Navbar() {
           </div>
 
           {/* Right side items (Language + Mobile Menu) */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center justify-center">
             {/* Language Switcher - Always visible */}
-            <LanguageSwitcher />
+            <div className="flex items-center">
+              <LanguageSwitcher />
+            </div>
 
             {/* Mobile menu button */}
-            <div className="md:hidden">
+            <div className="md:hidden ml-4 flex items-center">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-white inline-flex items-center justify-center"
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
