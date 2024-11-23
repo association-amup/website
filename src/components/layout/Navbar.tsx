@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           
           {/* Desktop menu */}
-          <div className="hidden md:flex md:items-center md:space-x-4">
+          <div className="hidden lg:flex lg:items-center lg:space-x-4">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -60,7 +60,7 @@ function Navbar() {
             </div>
 
             {/* Mobile menu button */}
-            <div className="md:hidden ml-4 flex items-center">
+            <div className="lg:hidden ml-4 flex items-center">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="text-gray-300 hover:text-white inline-flex items-center justify-center"
@@ -87,7 +87,7 @@ function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navigation.map((item) => (
               <Link
