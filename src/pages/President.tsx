@@ -24,17 +24,19 @@ function President() {
           </div>
           <div className="mt-10 lg:mt-0">
             <h2 className="text-3xl font-bold text-primary mb-6">
-              Dr. [Name]
+              {t('president.name')}
             </h2>
             <div className="prose prose-lg text-gray-600">
               <p>{t('president.greeting')}</p>
               <p className="mt-4">{t('president.content.part1')}</p>
               <p className="mt-4">{t('president.content.part2')}</p>
               <p className="mt-4">{t('president.content.part3')}</p>
+              <p className="mt-4">{t('president.content.part4')}</p>
+              <p className="mt-4">{t('president.content.part5')}</p>
+              <p className="mt-4">{t('president.content.part6')}</p>
               <p className="mt-6 font-medium">
                 {t('president.signature')}<br />
-                Dr. [Name]<br />
-                {t('president.title')}, AMUP
+                {t('president.name')}
               </p>
             </div>
           </div>

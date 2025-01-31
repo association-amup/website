@@ -58,13 +58,17 @@
     }
   },
   "president": {
+    "name": "Dr. Redouan Lotfy",
     "title": "President's Message",
-    "description": "A message from our leadership",
-    "greeting": "Dear friends and supporters of AMUP,",
+    "description": "A message from our team",
+    "greeting": "First and foremost, a big thank you to everyone who has visited our website.`",
     "content": {
-      "part1": "It is an honor to serve as president of the Moroccan Association of Psychiatric Users.",
-      "part2": "We believe that mental health is a fundamental right, and we are committed to breaking down barriers.",
-      "part3": "Together, we can create positive change and build a more understanding and supportive society."
+      "part1": "Indeed, your interest in mental health is a strong support for us, as we strive first and foremost to combat the stigmatization of mental illness, whose main consequences are discrimination, exclusion and social rejection of people with mental disorders.",
+      "part2": "We emphasize that a person with a mental disorder is perfectly capable of playing a positive and constructive role in society when he or she is understood and supported.",
+      "part3": "Nous à l’association marocaine des usagers de la psychiatrie, nous sommes ouverts à tous et  à toutes les compétences en vue d’une collaboration pour la bonne cause.  Alors agissons ensemble pour une meilleure qualité de vie pour les usagers, leurs familles, leurs proches et amis.",
+      "part4": "This action is imminent, given that the World Health Organization considers that, worldwide, 5 of the most worrying pathologies of the 21st century are related to psychiatry: schizophrenia, bipolar disorders, addictions, depression and obsessive-compulsive disorders.",
+      "part5": "On the other hand, the state would gain a great deal in terms of economic, political and social costs if mental illness were taken care of.",
+      "part6": "So let's work together for the good of patients and their families."
     },
     "signature": "Sincerely,"
   },

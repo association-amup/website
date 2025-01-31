@@ -58,13 +58,17 @@
     }
   },
   "president": {
+    "name": "Dr. Redouan Lotfy",
     "title": "Message du Président",
-    "description": "Un message de notre direction",
-    "greeting": "Chers amis et supporteurs de l'AMUP,",
+    "description": "Un message de notre équipe",
+    "greeting": "Avant tout, un grand merci à toute personne ayant visité notre site web.",
     "content": {
-      "part1": "C'est un honneur de servir en tant que président de l'Association Marocaine des Usagers de la Psychiatrie.",
-      "part2": "Nous croyons que la santé mentale est un droit fondamental, et nous nous engageons à briser les barrières.",
-      "part3": "Ensemble, nous pouvons créer un changement positif et construire une société plus compréhensive et solidaire."
+      "part1": "En effet, votre intérêt pour la santé mentale représente un fort soutien pour nous, qui aspirons d’abord à combattre la stigmatisation de la maladie mentale, qui a pour principales conséquences la discrimination, l’exclusion et le rejet social des personnes atteintes de troubles psychiques.",
+      "part2": "Nous insistons sur le fait q’une personne souffrant d’un trouble mental est parfaitement capable de jouer un rôle positif et constructif au sein de la société quant elle est comprise et soutenue.",
+      "part3": "Nous à l’association marocaine des usagers de la psychiatrie, nous sommes ouverts à tous et à toutes les compétences en vue d’une collaboration pour la bonne cause. Alors agissons ensemble pour une meilleure qualité de vie pour les usagers, leurs familles, leurs proches et amis.",
+      "part4": "Cette action est imminente lorsqu’on sait que l’Organisation Mondiale de la Santé considère que, au niveau mondial, 5 des pathologies les plus préoccupantes du 21ème siècle relèvent de la psychiatrie: la schizophrénie, les troubles bipolaires, les addictions, la dépression et les troubles obsséssionnels compulsifs.",
+      "part5": "D’un autre côté, l’état gagnerait beaucoup en termes de cout aussi bien sur le plan économique, politique et social si la prise en charge de la maladie mentale est assurée.",
+      "part6": "Alors œuvrons ensemble pour le bien des malades et leurs familles."
     },
     "signature": "Cordialement,"
   },
