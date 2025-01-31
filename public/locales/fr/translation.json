@@ -100,38 +100,34 @@
     "types": {
       "conferences": {
         "title": "Conférences",
-        "description": "Conférences régulières avec des experts, des tables rondes et des ateliers sur divers sujets de santé mentale.",
+        "description": "La date du 10 octobre de chaque année correspond à la Journée Mondiale de la Santé Mentale.  Nous avons célébré cet événement le 12/10/2012 en organisant, en partenariat avec l’association AMALI, une conférence-débat dont le thème est « Bonheur et Santé Mentale ». Ce thème a fait de cette manifestation une grande réussite. En effet, le Professeur Driss Moussaoui a essayé de répondre à travers sa très intéressante intervention  à la question : Comment assurer le bonheur malgré la maladie ? Et le Docteur Youssef Mohi s’est penché sur le rôle du Programme Psycho-éducatif PROFAMILLE qui permet d’apaiser les relations famille-malade et créer un bien être familiale. Mme Amina Bencherki, vice présidente de l’association AMALI a présenté le Programme PROFAMILLE. Et enfin, l’Amicale des étudiants de la Faculté de Médecine a égayé l’assistance avec une pièce de théâtre qui a passé en revue les difficultés rencontrées par les malades dans les structures hospitalières. Cette manifestation a connu une assistance de plus de 200 personnes.",
         "details": [
-          "Sommet Annuel de la Santé Mentale",
-          "Ateliers de Développement Professionnel",
-          "Sessions d'Éducation Communautaire"
+          "La date du 10 octobre de chaque année correspond à la Journée Mondiale de la Santé Mentale. Nous avons célébré cet événement le 12/10/2012 en organisant, en partenariat avec l’association AMALI, une conférence-débat dont le thème est « Bonheur et Santé Mentale ». Ce thème a fait de cette manifestation une grande réussite. En effet, le Professeur Driss Moussaoui a essayé de répondre à travers sa très intéressante intervention à la question : Comment assurer le bonheur malgré la maladie ? Et le Docteur Youssef Mohi s’est penché sur le rôle du Programme Psycho-éducatif PROFAMILLE qui permet d’apaiser les relations famille-malade et créer un bien être familiale. Mme Amina Bencherki, vice présidente de l’association AMALI a présenté le Programme PROFAMILLE. Et enfin, l’Amicale des étudiants de la Faculté de Médecine a égayé l’assistance avec une pièce de théâtre qui a passé en revue les difficultés rencontrées par les malades dans les structures hospitalières. Cette manifestation a connu une assistance de plus de 200 personnes.",
+          "Le 08/06/2013, organisation d’une conférence-débat dont le thème est « quel avenir au Maroc pour les personnes en souffrance psychique ?» et qui était animée par le Professeur Omar Battas. Cette conférence était un franc succès par la richesse des interventions."
         ]
       },
-      "support": {
-        "title": "Groupes de Soutien",
-        "description": "Services d'écoute et de soutien fournis par des professionnels et bénévoles formés.",
+      "listeningCells": {
+        "title": "Cellules d’écoute",
         "details": [
-          "Sessions de Soutien Individuel",
-          "Intervention de Crise",
-          "Groupes de Soutien par les Pairs"
+          "Organisation au courant de l’année 2013, en partenariat avec l’association AMALI, de plusieurs cellules d’écoute qui ont permis aux membres des deux associations d’accueillir, écouter et prodiguer des conseil et soulager la souffrance de patients et de leurs familles. Toujours dans ce cadre, plusieurs visites on t été rendues à certains patients hospitalisés au Centre Psychiatrique Universitaire Ibn Rochd ainsi qu’à l’hôpital psychiatrique ARRAZI de Salé."
         ]
       },
       "workshops": {
         "title": "Ateliers",
-        "description": "Ateliers interactifs axés sur l'éducation à la santé mentale et le développement des compétences.",
         "details": [
-          "Gestion du Stress",
-          "Pratique de la Pleine Conscience",
-          "Formation aux Compétences de Vie"
+          "Pour que les patients puissent retrouver leur estime de soi et reconquérir la confiance en soi, nous avons expérimenté, avec un groupe restreint de 8 personnes et en partenariat avec l’association AMALI, des ateliers d’informatique, de peinture sur soie et peinture sur verre, animés par  des bénévoles, et dont les réalisations seront exposées à la vente lors d’une journée porte ouverte qui sera organisée ultérieurement par les deux associations."
         ]
       },
       "awareness": {
         "title": "Marches de Sensibilisation",
-        "description": "Marches de sensibilisation et manifestations publiques pour promouvoir la santé mentale.",
         "details": [
-          "Marche Annuelle de Sensibilisation",
-          "Événements de Sensibilisation Communautaire",
-          "Campagnes de Plaidoyer Public"
+          "Dans le cadre de la lutte contre la stigmatisation, AMALI et AMUP ont organisé, à l’occasion de la Journée Mondiale de la Santé Mentale, le 6 octobre 2013, une marche populaire à Casablanca qui a vu la participation de patients, les membres de leurs familles, des médecins psychiatres, des associations, quelques médias ainsi que de nombreux sympathisants."
+        ]
+      },
+      "trips": {
+        "title": "Sorties",
+        "details": [
+          "Nous avons organisé en été des sorties en mer, pendant lesquelles, des patients stabilisés ont pu se détendre, se divertir et tisser des liens d’amitié en partageant leurs expériences et leurs aspirations dans un cadre très convivial."
         ]
       }
     }

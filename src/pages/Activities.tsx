@@ -14,10 +14,10 @@ function Activities() {
       details: t('activities.types.conferences.details', { returnObjects: true })
     },
     {
-      title: t('activities.types.support.title'),
-      description: t('activities.types.support.description'),
+      title: t('activities.types.listeningCells.title'),
+      description: t('activities.types.listeningCells.description'),
       image: "https://placehold.co/600x400",
-      details: t('activities.types.support.details', { returnObjects: true })
+      details: t('activities.types.listeningCells.details', { returnObjects: true })
     },
     {
       title: t('activities.types.workshops.title'),
@@ -30,7 +30,13 @@ function Activities() {
       description: t('activities.types.awareness.description'),
       image: "https://placehold.co/600x400",
       details: t('activities.types.awareness.details', { returnObjects: true })
-    }
+    },
+    {
+      title: t('activities.types.trips.title'),
+      description: t('activities.types.trips.description'),
+      image: "https://placehold.co/600x400",
+      details: t('activities.types.trips.details', { returnObjects: true })
+    },
   ];
 
   return (
@@ -57,12 +63,10 @@ function Activities() {
             </div>
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold text-primary mb-4">{activity.title}</h2>
-              <p className="text-gray-600 mb-6">{activity.description}</p>
               <ul className="space-y-2">
                 {(activity.details as string[]).map((detail: string) => (
                   <li key={detail} className="flex items-center text-gray-600">
-                    <span className="text-accent mr-2">•</span>
-                    {detail}
+                    {(activity.details as string[]).length > 1 ? <>•</> : <></>} {detail}
                   </li>
                 ))}
               </ul>

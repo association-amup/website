@@ -100,38 +100,33 @@
     "types": {
       "conferences": {
         "title": "Conferences",
-        "description": "Regular conferences with expert speakers, panel discussions, and workshops on various mental health topics.",
         "details": [
-          "Annual Mental Health Summit",
-          "Professional Development Workshops",
-          "Community Education Sessions"
+          "October 10 is World Mental Health Day. We celebrated this event on 12/10/2012 by organizing, in partnership with the AMALI association, a conference-debate on the theme of “Happiness and Mental Health”. This theme made the event a great success. Professor Driss Moussaoui gave an interesting presentation on the question of how to ensure happiness despite illness. And Doctor Youssef Mohi focused on the role of the PROFAMILLE psycho-educational program in calming family-sickness relations and creating family well-being. Ms. Amina Bencherki, vice-president of the AMALI association, presented the PROFAMILLE program. And finally, the Amicale des étudiants de la Faculté de Médecine entertained the audience with a play reviewing the difficulties encountered by patients in hospital structures. Over 200 people attended the event.",
+          "On 08/06/2013, organization of a conference-debate whose theme was “what future in Morocco for people with psychological suffering?” and which was moderated by Professor Omar Battas. The conference was a resounding success, with a wealth of contributions."
         ]
       },
-      "support": {
-        "title": "Support Groups",
-        "description": "Listening and support services provided by trained professionals and volunteers.",
+      "listeningCells": {
+        "title": "Listening Cells",
         "details": [
-          "Individual Support Sessions",
-          "Crisis Intervention",
-          "Peer Support Groups"
+          "Organization in 2013, in partnership with the AMALI association, of several listening cells which enabled members of the two associations to welcome, listen and provide advice and relieve the suffering of patients and their families. Also in this context, several visits were made to patients hospitalized at the Centre Psychiatrique Universitaire Ibn Rochd and at the ARRAZI psychiatric hospital in Salé."
         ]
       },
       "workshops": {
         "title": "Workshops",
-        "description": "Interactive workshops focused on mental health education, coping strategies, and skill development.",
         "details": [
-          "Stress Management",
-          "Mindfulness Practice",
-          "Life Skills Training"
+          "To help patients regain their self-esteem and self-confidence, we have been running computer, silk and glass painting workshops for a small group of 8 people, in partnership with the AMALI association. These workshops are run by volunteers, and their work will be exhibited for sale at an open day to be organized by the two associations."
         ]
       },
       "awareness": {
         "title": "Awareness Walks",
-        "description": "Awareness walks and public demonstrations to promote mental health awareness and reduce stigma.",
         "details": [
-          "Annual Awareness Walk",
-          "Community Outreach Events",
-          "Public Advocacy Campaigns"
+          "As part of the fight against stigmatization, AMALI and AMUP organized a popular march in Casablanca on World Mental Health Day, October 6, 2013, which saw the participation of patients, family members, psychiatric doctors, associations, some media as well as many supporters."
+        ]
+      },
+      "trips": {
+        "title": "Trips",
+        "details": [
+          "In the summer, we organized a series of outings to the sea, during which stabilized patients were able to relax, enjoy themselves and forge friendships by sharing their experiences and aspirations in a very convivial setting."
         ]
       }
     }
