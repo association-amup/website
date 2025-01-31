@@ -78,23 +78,23 @@
     "list": {
       "awareness": {
         "title": "Awareness & Education",
-        "description": "Increase public understanding of mental health issues and promote mental health literacy through educational programs and campaigns."
+        "description": "Sensitize decision-makers to introduce free medication and hospitalization (since mental illness is a chronic disease requiring costly, long-term treatment, it can also lead to disability)."
       },
       "support": {
         "title": "Support Services",
-        "description": "Provide accessible support services and resources to individuals and families affected by mental health challenges."
+        "description": "Involve people suffering from mental illness in various workshops (Art, Therapy, Painting, Music, Handicrafts, Sport, etc.) to help them socialize and regain their self-esteem and self-confidence."
       },
       "advocacy": {
         "title": "Advocacy",
-        "description": "Advocate for better mental health policies and improved access to mental health services in Morocco."
-      },
-      "stigma": {
-        "title": "Stigma Reduction",
-        "description": "Combat stigma and discrimination related to mental health conditions through community engagement and education."
+        "description": "Advocating for better mental health policies and access to mental health services in Morocco."
       },
       "research": {
         "title": "Research & Innovation",
-        "description": "Support research initiatives and innovative approaches to mental health care and treatment."
+        "description": "Support research initiatives and innovative approaches to mental health care."
+      },
+      "stigma": {
+        "title": "Stigma Reduction",
+        "description": "Combating stigmatization and breaking the taboo of silence"
       }
     }
   },

@@ -78,23 +78,23 @@
     "list": {
       "awareness": {
         "title": "Sensibilisation & Éducation",
-        "description": "Accroître la compréhension publique des problèmes de santé mentale et promouvoir la littératie en santé mentale à travers des programmes éducatifs."
+        "description": "Sensibiliser les décideurs pour instaurer la gratuité des médicaments et de l’hospitalisation (La maladie psychique étant une maladie chronique et nécessitant des traitements couteux et de longue durée, de même qu’elle peut entrainer un handicap)"
       },
       "support": {
         "title": "Services de Soutien",
-        "description": "Fournir des services de soutien et des ressources accessibles aux individus et aux familles touchés par les défis de la santé mentale."
+        "description": "Faire participer les personnes en souffrance psychique à divers ateliers (Art, Thérapie, Peinture, Musique, Travaux manuels, Sport, ...etc) pour leurs sociabilisassions et pour qu’elles retrouvent estime de soi et reconquièrent confiance en soi"
       },
       "advocacy": {
         "title": "Plaidoyer",
         "description": "Plaider pour de meilleures politiques de santé mentale et un meilleur accès aux services de santé mentale au Maroc."
       },
-      "stigma": {
-        "title": "Réduction de la Stigmatisation",
-        "description": "Combattre la stigmatisation et la discrimination liées aux conditions de santé mentale à travers l'engagement communautaire."
-      },
       "research": {
         "title": "Recherche & Innovation",
         "description": "Soutenir les initiatives de recherche et les approches innovantes en matière de soins de santé mentale."
+      },
+      "stigma": {
+        "title": "Réduction de la Stigmatisation",
+        "description": "Combattre la stigmatisation et briser le tabou du silence"
       }
     }
   },

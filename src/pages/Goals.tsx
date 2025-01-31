@@ -27,16 +27,16 @@ function Goals() {
     },
     {
       id: 4,
+      title: t('goals.list.research.title'),
+      description: t('goals.list.research.description'),
+      icon: "🔬"
+    },
+    {
+      id: 5,
       title: t('goals.list.stigma.title'),
       description: t('goals.list.stigma.description'),
       icon: "💪"
     },
-    {
-      id: 5,
-      title: t('goals.list.research.title'),
-      description: t('goals.list.research.description'),
-      icon: "🔬"
-    }
   ];
 
   return (
