@@ -142,16 +142,13 @@
     "info": {
       "title": "Contact Information",
       "address": "Address",
-      "addressLine1": "123 Example Street",
-      "addressLine2": "Casablanca, Morocco",
+      "addressLine1": "Allotment Al Firdaws Building 220 Apartment 24",
+      "addressLine2": "Al Oulfae Casabalnca",
       "email": "Email",
-      "emailAddress": "contact@amup.org",
+      "emailAddress": "assoc.amup@gmail.com",
       "phone": "Phone",
-      "phoneNumber": "+212 5XX-XXXXXX",
-      "hours": "Opening Hours",
-      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
-      "saturday": "Saturday: 9:00 AM - 1:00 PM",
-      "sunday": "Sunday: Closed"
+      "phoneNumber1": "06 71 94 24 36",
+      "phoneNumber2": "06 65 81 39 48"
     }
   },
   "news": {
@@ -183,7 +180,7 @@
     },
     "contact": {
       "emailPrefix": "Contact us",
-      "email": "contact@amup.org",
+      "email": "assoc.amup@gmail.com",
       "address": "123 Example Street, Casablanca, Morocco"
     },
     "address": {

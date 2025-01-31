@@ -23,24 +23,21 @@ function Contact() {
               <div>
                 <h3 className="text-lg font-medium text-gray-900">{t('contact.info.address')}</h3>
                 <p className="mt-2 text-gray-600">
-                  123 Rue Exemple<br />
-                  Casablanca, Maroc
+                  {t('contact.info.addressLine1')}
+                  <br />
+                  {t('contact.info.addressLine2')}
                 </p>
               </div>
               <div>
                 <h3 className="text-lg font-medium text-gray-900">{t('contact.info.email')}</h3>
-                <p className="mt-2 text-gray-600">contact@amup.org</p>
+                <p className="mt-2 text-gray-600">{t('contact.info.emailAddress')}</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium text-gray-900">{t('contact.info.phone')}</h3>
-                <p className="mt-2 text-gray-600">+212 5XX-XXXXXX</p>
-              </div>
-              <div>
-                <h3 className="text-lg font-medium text-gray-900">{t('contact.info.hours')}</h3>
-                <p className="mt-2 text-gray-600">
-                  {t('contact.info.weekdays')}<br />
-                  {t('contact.info.saturday')}<br />
-                  {t('contact.info.sunday')}
+                <p className="mt-2 text-gray-600 inline-block" dir="ltr">
+                  {t('contact.info.phoneNumber1')}
+                  <br />
+                  {t('contact.info.phoneNumber2')}
                 </p>
               </div>
             </div>

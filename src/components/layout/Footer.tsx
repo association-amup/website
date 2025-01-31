@@ -16,7 +16,7 @@ function Footer() {
     social: [
       {
         name: 'Facebook',
-        href: '#',
+        href: 'https://facebook.com/associationamup',
         icon: (props: React.SVGProps<SVGSVGElement>) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -87,13 +87,13 @@ function Footer() {
 
         {/* Copyright */}
         <p className="mt-8 text-center text-base text-gray-300">
-          &copy; {new Date().getFullYear()} {t('footer.organization')}. {t('footer.rights')}
+          &copy; 2014 {t('footer.organization')}. {t('footer.rights')}
         </p>
 
         {/* Contact Info */}
         <div className="mt-4 text-center text-sm text-gray-300">
-          <p>contact@amup.org</p>
-          <p className="mt-1">{t('footer.address.line1')}, {t('footer.address.line2')}</p>
+          <p>{t('footer.contact.email')}</p>
+          <p className="mt-1">{t('contact.info.addressLine1')}, {t('contact.info.addressLine2')}</p>
         </div>
       </div>
     </footer>

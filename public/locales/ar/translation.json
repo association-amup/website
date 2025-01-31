@@ -142,16 +142,13 @@
     "info": {
       "title": "معلومات الاتصال",
       "address": "العنوان",
-      "addressLine1": "123 شارع المثال",
-      "addressLine2": "الدار البيضاء، المغرب",
+      "addressLine1": "إقامة الفردوس المبنى 220 رقم 24",
+      "addressLine2": "الولفة الدار البيضاء",
       "email": "البريد الإلكتروني",
-      "emailAddress": "contact@amup.org",
+      "emailAddress": "assoc.amup@gmail.com",
       "phone": "الهاتف",
-      "phoneNumber": "+212 5XX-XXXXXX",
-      "hours": "ساعات العمل",
-      "weekdays": "الإثنين - الجمعة: 9:00 صباحاً - 5:00 مساءً",
-      "saturday": "السبت: 9:00 صباحاً - 1:00 ظهراً",
-      "sunday": "الأحد: مغلق"
+      "phoneNumber1": "06 71 94 24 36",
+      "phoneNumber2": "06 65 81 39 48"
     }
   },
   "news": {
@@ -182,7 +179,7 @@
     },
     "contact": {
       "emailPrefix": "راسلونا",
-      "email": "contact@amup.org",
+      "email": "assoc.amup@gmail.com",
       "address": "123 شارع المثال، الدار البيضاء، المغرب"
     },
     "address": {

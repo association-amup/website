@@ -142,16 +142,13 @@
     "info": {
       "title": "Informations de Contact",
       "address": "Adresse",
-      "addressLine1": "123 Rue Exemple",
-      "addressLine2": "Casablanca, Maroc",
+      "addressLine1": "Lotissement Al Firdaws Immeuble 220 Apt 24",
+      "addressLine2": "Al Oulfae Casabalnca",
       "email": "Email",
-      "emailAddress": "contact@amup.org",
+      "emailAddress": "assoc.amup@gmail.com",
       "phone": "Téléphone",
-      "phoneNumber": "+212 5XX-XXXXXX",
-      "hours": "Heures d'ouverture",
-      "weekdays": "Lundi - Vendredi : 9h00 - 17h00",
-      "saturday": "Samedi : 9h00 - 13h00",
-      "sunday": "Dimanche : Fermé"
+      "phoneNumber1": "06 71 94 24 36",
+      "phoneNumber2": "06 65 81 39 48"
     }
   },
   "news": {
@@ -182,7 +179,7 @@
     },
     "contact": {
       "emailPrefix": "Contactez-nous",
-      "email": "contact@amup.org",
+      "email": "assoc.amup@gmail.com",
       "address": "123 Rue Exemple, Casablanca, Maroc"
     },
     "address": {
