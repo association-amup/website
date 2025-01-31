@@ -39,15 +39,11 @@
   },
   "about": {
     "title": "About Us",
-    "description": "Discover our mission and the team behind AMUP",
-    "mission": {
-      "title": "Our Mission",
-      "description": "AMUP is dedicated to promoting mental health awareness, reducing stigma, and supporting individuals and families affected by mental health challenges in Morocco."
-    },
+    "description": "Discover our history and the team behind AMUP",
     "history": {
       "title": "Our History",
-      "description": "Founded in [YEAR], AMUP began as a small group of dedicated individuals committed to improving mental health support in Morocco. Over the years, we have grown into a national organization.",
-      "impact": "Through our various programs and initiatives, we have helped thousands of people access mental health resources and support."
+      "description": "AMUP is Morocco's first mental health service users association.",
+      "impact": "Created following an idea by Professor Driss Moussaoui, former director of the Centre Psychiatrique Universitaire/Casablanca, and Mme Naima Trachen, president of the AMALI association, our association's main aim is to combat exclusion, discrimination and isolation of people suffering from mental illness. We aim to raise public awareness of the fact that the mentally ill person is not a retard or a lunatic, but a person in his or her own right, a person who is ill and in need of treatment, a person who must be respected and accepted for his or her differences."
     },
     "team": {
       "title": "Our Team",

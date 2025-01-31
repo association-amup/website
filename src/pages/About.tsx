@@ -27,18 +27,6 @@ function About() {
         description={t('about.description')}
       />
 
-      {/* Mission Section */}
-      <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-primary">{t('about.mission.title')}</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              {t('about.mission.description')}
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* History Section */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

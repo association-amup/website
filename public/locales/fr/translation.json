@@ -39,15 +39,11 @@
   },
   "about": {
     "title": "À Propos de Nous",
-    "description": "Découvrez notre mission et l'équipe derrière l'AMUP",
-    "mission": {
-      "title": "Notre Mission",
-      "description": "L'AMUP se consacre à la promotion de la sensibilisation à la santé mentale, à la réduction de la stigmatisation et au soutien des individus et des familles touchés par les défis de la santé mentale au Maroc."
-    },
+    "description": "Découvrez notre histoire et l'équipe derrière l'AMUP",
     "history": {
       "title": "Notre Histoire",
-      "description": "Fondée en [ANNÉE], l'AMUP a commencé comme un petit groupe d'individus dévoués à l'amélioration du soutien en santé mentale au Maroc.",
-      "impact": "Grâce à nos différents programmes et initiatives, nous avons aidé des milliers de personnes à accéder aux ressources et au soutien en santé mentale."
+      "description": "L’association AMUP est la première association d’usagers des services de santé mentale au Maroc.",
+      "impact": "Créée suite à une idée du Professeur Driss Moussaoui, ancien directeur du Centre Psychiatrique Universitaire/Casablanca, et Mme Naima Trachen, présidente de l’association AMALI, notre association se donne pour principal objectif  de  lutter contre l’exclusion, la discrimination et l’isolement des personnes en souffrance psychique. Nous visons la sensibilisation de l’opinion publique au fait que le malade mental  n’est pas un débile ou un fou mais une personne à part entière, une personne malade et qui se soigne, enfin une personne qui doit être respectée et acceptée avec sa différence."
     },
     "team": {
       "title": "Notre Équipe",
